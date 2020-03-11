@@ -24,6 +24,16 @@ D 3 Chanel Programable Sound Generator + 16 I/O
 F http://www.ym2149.com/ay8930.pdf
 $ENDCMP
 #
+$CMP W27C512
+D 64K ×  8 ELECTRICALLY ERASABLE EPROM
+K FLASH, EEPROM, EPROM, PARALLEL
+$ENDCMP
+#
+$CMP W27C512_PLCC
+D 64K ×  8 ELECTRICALLY ERASABLE EPROM
+K FLASH, EEPROM, EPROM, PARALLEL
+$ENDCMP
+#
 $CMP cartridge_DandanatorVC2
 D Generic connector, double row, 02x14, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)
 K connector
