@@ -1,0 +1,39 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CH340
+D USB to TTL Serial converter
+$ENDCMP
+#
+$CMP PSG_AY-3-8910
+D 3 Chanel Programable Sound Generator + 16 I/O
+F map.grauw.nl/resources/sound/generalinstrument_ay-3-8910.pdf
+$ENDCMP
+#
+$CMP PSG_AY-3-8912
+D 3 Chanel Programable Sound Generator + 8 I/O
+F map.grauw.nl/resources/sound/generalinstrument_ay-3-8910.pdf
+$ENDCMP
+#
+$CMP PSG_AY-3-8913
+D 3 Chanel Programable Sound Generator + 8 I/O
+F map.grauw.nl/resources/sound/generalinstrument_ay-3-8910.pdf
+$ENDCMP
+#
+$CMP PSG_AY-3-8930
+D 3 Chanel Programable Sound Generator + 16 I/O
+F http://www.ym2149.com/ay8930.pdf
+$ENDCMP
+#
+$CMP cartridge_DandanatorVC2
+D Generic connector, double row, 02x14, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP cartridge_IF2
+D Generic connector, double row, 02x14, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+#End Doc Library
