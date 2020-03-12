@@ -1,6 +1,6 @@
-#Contens of the library:
+# Contens of the library:
 
-##Symbols:
+## Symbols:
 RAM:
 - 6264
 - 62128
@@ -34,7 +34,7 @@ CONECTORS:
 - Dandanator Cartdridge
 
 
-##Footprint
+## Footprint
 Chips:
 - PLCC 32 (SMD)
 - TSOP-32
@@ -57,7 +57,7 @@ Other:
 - Resistor 1/8W with long leads
 
 
-##3D Model
+## 3D Model
 - Edge conector for spectrum
 - simple switch 
 - 3 position solder jumper
