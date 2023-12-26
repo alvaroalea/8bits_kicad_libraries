@@ -31,8 +31,9 @@ FPGA, CPLD, GAL & MCU:
 CONECTORS:
 - ZX Spectrum edge conector
 - ZX Cartdridge
-- Dandanator Cartdridge
-
+- Dandanator Cartridge
+- QL Rom Cartridge
+- QL Expansion Slot (In and Out)
 
 ## Footprint
 Chips:
