@@ -1,0 +1,241 @@
+(footprint "TO-92-rev-inv-SINCLAIR"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "TO-92 leads molded, narrow, drill 0.75mm (see NXP sot054_po.pdf)")
+	(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
+	(property "Reference" "Q8"
+		(at -0.254 5.588 0)
+		(layer "F.SilkS")
+		(uuid "28228c08-fc23-4c1f-bdf7-39db55816dc1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "XTX313"
+		(at 2.54 5.08 0)
+		(layer "F.Fab")
+		(uuid "ce6bfdac-fca4-47d4-9d9c-d1e92e4b0f0a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "8bits:TO-92-rev-SINCLAIR"
+		(at 6.985 5.08 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2f447c8c-ece3-4e89-a97b-e20715f03be6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
+		(at 6.985 5.08 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "502d2bce-5b43-4679-87d5-c1481cbfc2c5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter"
+		(at 6.985 5.08 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2a15db51-bd17-44f9-8fc7-de1c25ccafd4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Device" "NPN"
+		(at 2.54 5.08 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "932b8c73-9752-4545-a50f-9a306609f1aa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Type" "GUMMELPOON"
+		(at 0.635 5.08 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ae48d2d1-d852-4744-89f9-27e8d3f614d2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Pins" "1=C 2=B 3=E"
+		(at 0.635 5.08 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9deee38a-abec-4e6e-87e1-83842a26c698")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -5.841873 1.778)
+		(end 0.761872 1.778)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3ea6cc06-9767-4f1b-a144-978b8c050ef4")
+	)
+	(fp_arc
+		(start -5.906855 1.796565)
+		(mid -5.335481 -1.274036)
+		(end -2.54 -2.667)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6fc0e2ec-284b-4e76-b350-8a17281bd6ca")
+	)
+	(fp_arc
+		(start -2.54 -2.667)
+		(mid -0.775657 -2.190016)
+		(end 0.508013 -0.889013)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f75c990c-3c93-4d7d-92ed-5b7b940cb536")
+	)
+	(fp_arc
+		(start 0.762 -0.254)
+		(mid 0.936119 0.764796)
+		(end 0.803046 1.789761)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d8dfdde0-712c-4cf1-a3c8-f5e0378c1b29")
+	)
+	(fp_rect
+		(start -6.096 -1.016)
+		(end 1.016 3.556)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "d217583a-7d33-4dec-9883-80ab04a3b943")
+	)
+	(fp_line
+		(start -4.31 1.750607)
+		(end -0.81 1.750607)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "60f86572-7ec4-4135-9bee-7bf1fb0eb759")
+	)
+	(fp_arc
+		(start -4.293625 1.754232)
+		(mid -4.831221 -0.948448)
+		(end -2.54 -2.479393)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9661f510-76b9-49a1-85cb-4713555cc794")
+	)
+	(fp_arc
+		(start -2.54 -2.479393)
+		(mid -0.248784 -0.94845)
+		(end -0.786375 1.754232)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "01c09007-a6b8-44b4-87ad-dc282420b0ad")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 1.905 5.08 0)
+		(layer "F.Fab")
+		(uuid "39b29e45-4e3a-4e1a-af46-cd7369ee6a5c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.3 1.3)
+		(drill 0.75)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "91497612-f592-4a9e-9021-cd4f9d1a7557")
+	)
+	(pad "2" thru_hole circle
+		(at -2.54 2.54)
+		(size 1.3 1.3)
+		(drill 0.75)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d68d92c6-46ee-4088-9e99-02925c8ee81d")
+	)
+	(pad "3" thru_hole circle
+		(at -5.08 0)
+		(size 1.3 1.3)
+		(drill 0.75)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "28d3e56b-ccd0-4159-9c1f-b53f4df471a8")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

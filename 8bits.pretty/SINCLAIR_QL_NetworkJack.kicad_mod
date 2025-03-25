@@ -1,0 +1,266 @@
+(footprint "SINCLAIR_QL_NetworkJack"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "J10"
+		(at 2.587 -7.747 0)
+		(layer "F.SilkS")
+		(uuid "0d733e73-d063-468e-b647-9a205faf205b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "SINCLAIR_QL_NetworkJack"
+		(at -1.016 -1.27 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "224e160b-551f-4bd7-b7b9-4521e5fb7ae5")
+		(effects
+			(font
+				(size 0.38608 0.38608)
+				(thickness 0.032512)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Footprint" "8bits:AudioJack2_Ground_Switch"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9bb58185-2513-496c-ab44-b4e7ab3a5251")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0.254 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3ea83505-f35c-416e-9345-0d671184afdd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Audio Jack, 2 Poles (Mono / TS), Grounded Sleeve, Switched Pole (Normalling)"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e650c7a5-9b61-4c7a-b333-4247f0f92687")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -3.5 -6)
+		(end -3.5 6)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "60c86cc2-defa-4890-913f-6a21c9b7fa4c")
+	)
+	(fp_line
+		(start -3.5 -6)
+		(end 3.5 -6)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "596ec197-b2c9-49ca-b02e-a48fbdf9d3d7")
+	)
+	(fp_line
+		(start -3.5 6)
+		(end -1.27 6)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d6d044c9-267e-4b12-95a3-7bdbd082470c")
+	)
+	(fp_line
+		(start 1.651 6)
+		(end 3.754 6)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "33b6fb90-7bde-4ada-9f16-903e38d5bb51")
+	)
+	(fp_line
+		(start 7.5 -6)
+		(end 6.5 -6)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "42dd2314-dfa3-4835-81d2-c68c5d409bf3")
+	)
+	(fp_line
+		(start 7.5 -6)
+		(end 7.5 6)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bae4ec8a-382e-47cc-bc73-a89fc1bfce38")
+	)
+	(fp_line
+		(start 7.5 6)
+		(end 6.5 6)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d0861b3f-1bd6-4132-9cf2-a9945fe9ef99")
+	)
+	(fp_line
+		(start -6.5 -3)
+		(end -6.5 3)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2d98820f-98cb-48cd-89bb-15a016d8f7e1")
+	)
+	(fp_line
+		(start -6.5 -3)
+		(end -4.5 -3)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4324b01e-73d2-474a-b0df-93ee090044ae")
+	)
+	(fp_line
+		(start -6.5 3)
+		(end -4.5 3)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a69a3cd4-4133-49d6-8ee8-22ecd1503ad0")
+	)
+	(fp_line
+		(start -4.5 -4.5)
+		(end -4.5 -3)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "06335155-d347-4acb-8955-17c0886727af")
+	)
+	(fp_line
+		(start -4.5 -4.5)
+		(end -3.5 -4.5)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0f6c7cdf-2f4d-4afa-8f89-f0c35ef14a0a")
+	)
+	(fp_line
+		(start -4.5 3)
+		(end -4.5 4.5)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "825e41bc-51dd-49b9-8e24-2f92bd4bf97e")
+	)
+	(fp_line
+		(start -4.5 4.5)
+		(end -3.5 4.5)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a8bcb077-1059-4d08-87de-95ba046e2ca2")
+	)
+	(fp_line
+		(start -3.5 -6)
+		(end -3.5 -4.5)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f445dc02-2ac7-40ed-9756-2d630cd095f8")
+	)
+	(fp_line
+		(start -3.5 4.5)
+		(end -3.5 6)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0a05c13b-e7d7-406f-818d-6d0b9c188ae2")
+	)
+	(pad "G" thru_hole rect
+		(at 0.762 4.826)
+		(size 3.5 4.5)
+		(drill 2.25)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.0508)
+		(uuid "8564ec32-2e8c-4c2b-aac2-ddcf25fb4d51")
+	)
+	(pad "T" thru_hole rect
+		(at 4.953 4.826)
+		(size 3.5 4.5)
+		(drill 2.25)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.0508)
+		(uuid "7f54f17a-9a78-44d2-94f5-ce90f02b984b")
+	)
+	(pad "TN" thru_hole rect
+		(at 4.953 -4.826)
+		(size 3.5 4.5)
+		(drill 2.25)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.0508)
+		(uuid "b3606aa2-3cfb-47bb-aab9-3f445e693249")
+	)
+	(model "/home/alvaro/kicadprojects/8bits_kicad_libraries/packages3d/pj-307.step"
+		(offset
+			(xyz 7.5 6 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 90)
+		)
+	)
+)

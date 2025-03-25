@@ -1,0 +1,346 @@
+(footprint "D_DO-35_SOD27_P12.57mm_Horizontal"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
+	(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
+	(property "Reference" "D25"
+		(at 9.6012 2.54 0)
+		(layer "F.SilkS")
+		(uuid "a7cca90e-61c9-4629-bf5e-75fd85136394")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "BA157"
+		(at 8.763 2.12 0)
+		(layer "F.Fab")
+		(uuid "8bbc2173-37b2-4f15-8421-c4e3e5b2adff")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "8bits:D_DO-35_SOD27_P12.57mm_Horizontal"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "821b7d89-e78f-460b-8716-970c6f427956")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 2.4765 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "448e9945-b6ca-43ec-819c-b44387c1671e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Diode"
+		(at 2.4765 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ab9e0be7-2658-4494-b069-5774044f383a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Device" "D"
+		(at 2.4765 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fddd8d44-e7dd-437e-bc79-cdd42279d91e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Pins" "1=K 2=A"
+		(at 2.4765 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "65f503e7-6109-46b8-91b3-1a0aa036d492")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 1.716 0)
+		(end 2.7885 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a008c041-ad89-432c-9ad8-c4edb346f619")
+	)
+	(fp_line
+		(start 2.7885 -1.12)
+		(end 2.7885 1.12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e885d024-3072-449b-acb2-244e724123e4")
+	)
+	(fp_line
+		(start 2.7885 1.12)
+		(end 9.7845 1.12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ca423115-7e4e-4638-925a-8abe641f1705")
+	)
+	(fp_line
+		(start 9.7845 -1.12)
+		(end 2.7885 -1.12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5c394888-76c0-4221-91fb-f9755b6b53b1")
+	)
+	(fp_line
+		(start 9.7845 1.12)
+		(end 9.7845 -1.12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c81049cd-a343-4589-beee-67c4589d4969")
+	)
+	(fp_line
+		(start 10.857 0)
+		(end 9.7845 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "443b32aa-df3e-40ad-890c-fa97d73ea6a9")
+	)
+	(fp_rect
+		(start 3.7785 -1.12)
+		(end 4.1745 1.12)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "ca5eafea-d751-474f-a36f-83bc9035327c")
+	)
+	(fp_line
+		(start -1.016 -1.25)
+		(end -1.016 1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9a7710d3-3e38-4e8f-b4a9-ac8461877f77")
+	)
+	(fp_line
+		(start -1.016 1.25)
+		(end 13.589 1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "20ecb825-c10b-46c7-8803-ffc9e2afc45b")
+	)
+	(fp_line
+		(start 13.589 -1.25)
+		(end -1.016 -1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "635b9907-22e6-46f7-8fe1-60df53acfc6e")
+	)
+	(fp_line
+		(start 13.589 1.25)
+		(end 13.589 -1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bcd45b72-b7b5-4fb1-8ca1-e3d2f8b84c12")
+	)
+	(fp_line
+		(start 0 0)
+		(end 2.9865 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7222c7d2-09ad-45fa-a2ef-3f1353d3071a")
+	)
+	(fp_line
+		(start 2.9865 -1)
+		(end 2.9865 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ff861a71-7f2d-4e5c-ba0d-51c75ffb66df")
+	)
+	(fp_line
+		(start 2.9865 1)
+		(end 9.5865 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a4db5adf-700b-401a-ab24-040de05c1624")
+	)
+	(fp_line
+		(start 3.8115 -1)
+		(end 3.8115 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1c29f3ae-1e30-4adb-8c9b-e6a279c67e72")
+	)
+	(fp_line
+		(start 3.9765 -1)
+		(end 3.9765 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f06fbfe2-2fb4-455e-9d86-bbddc2b979b8")
+	)
+	(fp_line
+		(start 4.1415 -1)
+		(end 4.1415 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "67a823ca-6a04-4765-8306-206bcd3416f4")
+	)
+	(fp_line
+		(start 9.5865 -1)
+		(end 2.9865 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a7dc95df-a843-4e5a-8441-78c58402e292")
+	)
+	(fp_line
+		(start 9.5865 1)
+		(end 9.5865 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e527fd98-3582-48a4-9338-1f5a64329820")
+	)
+	(fp_line
+		(start 12.573 0)
+		(end 9.5865 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "09927ee4-ae45-4399-984e-24fd9d3911ab")
+	)
+	(fp_text user "K"
+		(at 0 -1.8 0)
+		(layer "F.Fab")
+		(uuid "1b716872-27ab-4393-a552-65a75a0be8e9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 6.7815 0 0)
+		(layer "F.Fab")
+		(uuid "5b3706fe-4281-4e9d-abc3-aadfbef77d02")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "dc1f69ce-2f40-40ef-a992-2bd26fc56770")
+	)
+	(pad "2" thru_hole oval
+		(at 12.573 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3ad8881c-617a-40c6-b2f9-7e19d9c5e4f3")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Diode_THT.3dshapes/D_DO-35_SOD27_P7.62mm_Horizontal.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,5 +1,7 @@
 # Contens of the library:
 
+WARNING: This library is not for production, some of the componentes has shorcuts of problems.
+
 ## Symbols:
 RAM:
 - 6264

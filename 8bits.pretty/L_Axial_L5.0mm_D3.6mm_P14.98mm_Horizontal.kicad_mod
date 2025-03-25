@@ -1,0 +1,268 @@
+(footprint "L_Axial_L5.0mm_D3.6mm_P14.98mm_Horizontal"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Inductor, Murata BL01RN1A2A2, Axial, Horizontal, pin pitch=10.00mm, length*diameter=5*3.6mm, https://www.murata.com/en-global/products/productdetail?partno=BL01RN1A2A2%23")
+	(tags "inductor axial horizontal")
+	(property "Reference" "L3"
+		(at 5 -3 180)
+		(layer "F.SilkS")
+		(uuid "c7c76f1b-cb09-47b2-ab9a-c0da0eaf54da")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "22uH"
+		(at 5 3 180)
+		(layer "F.Fab")
+		(uuid "5793b332-9bcc-4f16-9ec3-82e87da865e5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Inductor_THT:L_Axial_L5.0mm_D3.6mm_P10.00mm_Horizontal_Murata_BL01RN1A2A2"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "02343181-1441-4dd7-a54d-3074f4fb87f4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "59880645-b129-4523-9f05-2f581ff1729b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Inductor"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "50c5005a-d552-4a4f-9a68-7336a8046148")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 1 0)
+		(end 2.38 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "490aa2f7-0b11-4f32-bb48-ed608b377abc")
+	)
+	(fp_line
+		(start 2.38 -1.92)
+		(end 2.38 1.92)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d6299d15-b458-4ea0-bbbb-e4bb029cc5dc")
+	)
+	(fp_line
+		(start 2.38 1.92)
+		(end 12.606 1.92)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f4c3270f-4fb9-4073-b9aa-124986da086c")
+	)
+	(fp_line
+		(start 12.606 -1.92)
+		(end 2.38 -1.92)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "259690ca-143c-4b0f-b9b4-db30a2118282")
+	)
+	(fp_line
+		(start 12.606 1.92)
+		(end 12.606 -1.92)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "285bc7cb-69ab-46d6-8a64-f2960e18fca5")
+	)
+	(fp_line
+		(start 13.986 0)
+		(end 12.606 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f057947b-6536-44ee-b0d9-b8448251689d")
+	)
+	(fp_line
+		(start -1.05 -2.05)
+		(end -1.05 2.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4f7b0011-fab6-41dd-8727-b4938a0de6c9")
+	)
+	(fp_line
+		(start -1.05 2.05)
+		(end 16.036 2.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b238aa8c-b2f7-4cf7-b77c-dcef3dc4b209")
+	)
+	(fp_line
+		(start 16.036 -2.05)
+		(end -1.05 -2.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d7c8b972-f4e3-48a3-9398-0b1fc2880577")
+	)
+	(fp_line
+		(start 16.036 2.05)
+		(end 16.036 -2.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3e63ee5f-52bf-46c4-8bca-d7ab8fe72f52")
+	)
+	(fp_line
+		(start 0 0)
+		(end 2.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "15be0084-fe23-4c0b-b96a-2f4c5a14c678")
+	)
+	(fp_line
+		(start 2.5 -1.8)
+		(end 2.5 1.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ce9face7-02fd-481a-a379-6da55a124744")
+	)
+	(fp_line
+		(start 2.5 1.8)
+		(end 12.486 1.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "de56f394-2804-4833-8b8e-cf43b38fd914")
+	)
+	(fp_line
+		(start 12.486 -1.8)
+		(end 2.5 -1.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "30a712fd-6f7c-4338-82b9-abaed1a0741b")
+	)
+	(fp_line
+		(start 12.486 1.8)
+		(end 12.486 -1.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "19a5affe-5842-41cf-ab41-b7406412be3e")
+	)
+	(fp_line
+		(start 14.986 0)
+		(end 12.486 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d8ebe4b7-5ad8-482d-9e8f-7b37b7450a19")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 5 0 180)
+		(layer "F.Fab")
+		(uuid "d44cd4c5-74ba-403b-bf3b-9b098a1e2245")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.6 1.6)
+		(drill 0.85)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6855036d-cd49-4d6c-844d-af2358dbcd30")
+	)
+	(pad "2" thru_hole oval
+		(at 14.986 0)
+		(size 1.6 1.6)
+		(drill 0.85)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "02777472-a982-4c68-b27d-43c6ab5f1924")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Inductor_THT.3dshapes/L_Axial_L5.0mm_D3.6mm_P10.00mm_Horizontal_Murata_BL01RN1A2A2.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
